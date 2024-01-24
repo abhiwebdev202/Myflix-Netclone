@@ -1,2 +1,2 @@
-# Myflix-Postgresql
+# Myflix-2
 Netflix Clone
