@@ -83,12 +83,8 @@ WSGI_APPLICATION = 'Myflixproject.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgersql_psycopg2',
-        'NAME': 'myflix-database',
-        'USER': 'fl0user',
-        'PASSWORD': 'wWsOPEZrb6S3',
-        'HOST': 'ep-lively-water-15585024.eu-central-1.aws.neon.fl0.io',
-        'PORT': '5432',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
 
