@@ -22,13 +22,13 @@ RUN pip install --no-cache-dir -r requirements.txt
 EXPOSE 8000
 
 # Set the PYTHONPATH to include the directory containing your Django project
-ENV PYTHONPATH="/app/Netflix-Clone-Myflix/netclone/Myflix"
+ENV PYTHONPATH="/app/Myflix-Netclone-2/netclone/Myflix"
 
 # Define environment variable
 ENV DJANGO_SETTINGS_MODULE="Myflixproject.settings"
 
 # Set the STATIC_ROOT
-ENV STATIC_ROOT="/app/Netflix-Clone-Myflix/netclone/Myflix/Myflixproject/static/assets/"
+ENV STATIC_ROOT="/app/Myflix-Netclone-2/netclone/Myflix/Myflixproject/static/assets/"
 
 # Combine migrations, collect static files, and CMD in a single RUN instruction
 RUN python manage.py migrate && \
