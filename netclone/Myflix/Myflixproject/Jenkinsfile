@@ -6,7 +6,7 @@ pipeline {
         PYTHON_VERSION = '3.11.4'
         DJANGO_SETTINGS_MODULE = 'netclone.Myflix.Myflixproject.Myflixproject.settings'
         DOCKER_REGISTRY = 'your-docker-registry'
-        DOCKER_IMAGE_NAME = 'myflix-django-app'
+        DOCKER_IMAGE_NAME = 'myflixapp_web'
         DOCKER_IMAGE_TAG = 'latest'
     }
 
