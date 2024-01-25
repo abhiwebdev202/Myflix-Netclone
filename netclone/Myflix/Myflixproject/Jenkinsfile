@@ -1,5 +1,9 @@
 pipeline {
     agent any
+    tools {
+        jdk 'jdk17'
+        python 'python3'
+    }
     
     environment {
         // Define environment variables, if needed
